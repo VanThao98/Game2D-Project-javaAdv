@@ -27,11 +27,9 @@ public class Main {
 		window.setLocationRelativeTo(null);
 //		thiết đặt hiển thị cửa sổ game
 		window.setVisible(true);
-		try {
-			gamePanel.startGameThread();
-		} catch (Exception e) {
-			e.getMessage();
-		}
+		
+		gamePanel.startGameThread();
+	
 		
 		
 		
